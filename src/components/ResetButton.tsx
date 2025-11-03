@@ -1,5 +1,5 @@
 function ResetButton() {
-  return <button className="ResetButton">Reset Game</button>;
+  return <button className="resetButton">Reset Game</button>;
 }
 
 export default ResetButton;
