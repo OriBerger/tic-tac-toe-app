@@ -1,5 +1,16 @@
-function Square() {
-  return <button className="Square"></button>;
+interface SquareProps {
+  value: "X" | "O" | null;
+  onClick: () => void;
+}
+
+function Square({ value, onClick }: SquareProps) {
+  return (
+    <div>
+      <button className="Square" onClick={onClick}>
+        {value}
+      </button>
+    </div>
+  );
 }
 
 export default Square;
