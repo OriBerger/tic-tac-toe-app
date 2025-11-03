@@ -1,16 +1,18 @@
-import './App.css'
+import "./App.css";
+import Board from "./components/Board";
+import HistoryList from "./components/HistoryList";
+import ResetButton from "./components/ResetButton";
+import Turn from "./components/Turn";
 
 function App() {
-
   return (
     <div className="App">
-      <h1>Tic Tac Toe</h1>
-      <p>Welcome to the Tic Tac Toe game!</p>
-      <div className="Board">
-        {/* Game board will be rendered here */}
-      </div>
+      <Turn />
+      <Board />
+      <HistoryList />
+      <ResetButton />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
