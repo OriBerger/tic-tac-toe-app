@@ -6,7 +6,7 @@ interface SquareProps {
 function Square({ value, onClick }: SquareProps) {
   return (
     <div>
-      <button className="Square" onClick={onClick}>
+      <button className="square" onClick={onClick}>
         {value}
       </button>
     </div>

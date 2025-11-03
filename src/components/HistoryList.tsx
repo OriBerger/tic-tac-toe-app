@@ -1,5 +1,5 @@
 function HistoryList() {
-  return <div className="HistoryList"></div>;
+  return <div className="historyList"></div>;
 }
 
 export default HistoryList;

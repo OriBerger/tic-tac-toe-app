@@ -1,5 +1,5 @@
 function Player() {
-  return <div className="Player"></div>;
+  return <div className="player"></div>;
 }
 
 export default Player;
